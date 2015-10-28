@@ -1,0 +1,16 @@
+@media screen and (min-width: 480px) {
+	li {
+
+	}
+}
+
+@media screen and (min-width: 660px) {
+	#primary {
+		width: 45%
+		float: left
+	}
+	#secondary {
+		width: 45%
+		float: right
+	}
+}
