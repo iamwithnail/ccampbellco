@@ -81,12 +81,13 @@ h3 {
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -4em;
+	max-width: 70%;
 }
 
 .header {
 	max-width: 100%;
 	min-height: 4em;
-	float: right;
+	float: left;
 	display: block;
 }
 
@@ -107,6 +108,7 @@ h3 {
 	display: inline-block;
 }
 */
+
 .footer .push {
 	display: block;
 	position: relative;
@@ -125,6 +127,7 @@ h3 {
 
 .nav ul {
 	padding: 1em 4em;
+	float: right;
 }
 
 .nav li a {
