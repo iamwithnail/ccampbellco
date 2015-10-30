@@ -6,26 +6,20 @@ height: 100%;
 }
 
 body {
-	background-color: #f3f3f3;
-	color: #353535;
-}
-
-a {
-	font-family: 'Roboto Mono';
+	background-color: #c1dff0;
+	color: #272932;
+	font-family: 'Roboto Mono', ;
 	font-weight: 300;
-	text-decoration: none;
+	font-size: 14px;
 }
 
-ul {
-	padding: auto 0;
-}
 
 li {
 	list-style: none;
 }
 
 nav {
-	float: right;
+	float: middle;
 	margin: 0;
 	display: inline-block;
 	text-align: center;
@@ -37,7 +31,7 @@ h1 {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 600;
 	font-size: 42px;
-	color: #367148;
+	color: #4d7ea8;
 	text-align: center;
 }
 
@@ -45,7 +39,7 @@ h2 {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 600;
 	font-size: 36px;
-	color: #367148;
+	color: #4d7ea8;
 	text-align: center;
 }
 
@@ -53,7 +47,7 @@ h3 {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
-	color: #367148;
+	color: #4d7ea8;
 	text-align: center;
 }
 
@@ -61,19 +55,22 @@ h3 {
 	font-family: 'Roboto Mono', ;
 	font-weight: 300;
 	font-size: 18px;
-	color: #353535;
+	color: #272932;
 	text-align: justify;
 }
 
 .para {
 	font-family: 'Roboto Mono', ;
 	font-weight: 300;
-	font-size: 14px;
-	color: #353535;
 	text-align: justify;
 }
 
-/* div specific */
+a {
+	color: #4d7ea8;
+	text-decoration: none;
+}
+
+/* section specific */
 
 .wrapper {
 	min-height: 100%;
@@ -84,42 +81,50 @@ h3 {
 }
 
 .header {
-	max-width: 100%;
-	min-height: 4em;
-	float: right;
 	display: block;
+	margin: 1em auto;
 }
 
 .container {
-	display: block;
-	margin: 0 auto;
+	display: inline-block;
+	margin: 2.5% auto;
 	padding: 5%;
+	background-color: #fbfaf8;
+	opacity: .8;
+	min-height: 100%;
+	width: 90%;
 }
 
 .container ul {
 	padding-left: 0;
 }
-/*
+
 #primary {
 	float: left;
 	display: inline-block;
+	padding: 0;
+	margin: 0;
 }
 
 #secondary {
 	float: right;
 	display: inline-block;
+	padding: 0;
+	margin: 0;
 }
-*/
+
 
 .footer {
-	max-width: 80%;
+	max-width: 100%;
 	margin: 0 auto;
+	display: inline-block;
+	clear: both;
+	text-align: center;
 }
 
 .footer .push {
-	display: block;
 	position: relative;
-	height: 4em;
+	height: 2em;
 	clear: both;
 	margin: 0 auto;
 }
@@ -127,21 +132,15 @@ h3 {
 .nav {
 	display: block;
 	width: 100%;
-	right: 0;
-	left: 0;
-	padding: 0;
 }
 
-.nav ul {
-	float: right;
-	padding: auto 0;
+.nav li {
+	float: left;
+	text-align: center;
+	width: 30%;
 }
 
-.nav li a {
-	color: #4da167;
-}
-
-.nav li a:focus, a:hover {
-	color: #367148;
+.nav li a:hover, a:focus, a:active {
+	color: #f0f5f6;
 	text-decoration: underline;
 }

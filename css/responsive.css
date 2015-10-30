@@ -9,11 +9,11 @@
 
 @media (min-width: 768px) {
 	#primary {
-		width: 40%;
+		width: 45%;
 		float: left;
 	}
 	#secondary {
-		width: 40%;
+		width: 45%;
 		float: right;
 	}
 }
