@@ -6,8 +6,10 @@ height: 100%;
 }
 
 body {
-	background-color: #c1dff0;
-	color: #272932;
+/*	background-color: #c1dff0;
+	color: #272932; old blues; switch to green palette for motherboard img */
+	background-color: #f3fff3;
+	color: #092100;
 	font-family: 'Roboto Mono', ;
 	font-weight: 300;
 	font-size: 14px;
@@ -31,15 +33,15 @@ h1 {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 600;
 	font-size: 42px;
-	color: #4d7ea8;
+/*	color: #4d7ea8; */
 	text-align: center;
 }
 
 h2 {
 	font-family: 'Work Sans', sans-serif;
-	font-weight: 600;
-	font-size: 36px;
-	color: #4d7ea8;
+	font-weight: 400;
+	font-size: 32px;
+/*	color: #4d7ea8; */
 	text-align: center;
 }
 
@@ -47,26 +49,20 @@ h3 {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
-	color: #4d7ea8;
+/*	color: #4d7ea8; */
+	color: #34ab00;
 	text-align: center;
 }
 
-.lead {
-	font-family: 'Roboto Mono', ;
-	font-weight: 300;
-	font-size: 18px;
-	color: #272932;
-	text-align: justify;
-}
-
-.para {
+p {
 	font-family: 'Roboto Mono', ;
 	font-weight: 300;
 	text-align: justify;
 }
 
 a {
-	color: #4d7ea8;
+/*	color: #4d7ea8; */
+	color: #34ab00;
 	text-decoration: none;
 }
 
@@ -87,9 +83,9 @@ a {
 
 .container {
 	display: inline-block;
-	margin: 2.5% auto;
-	padding: 5%;
-	background-color: #fbfaf8;
+	margin: 0 auto;
+	padding: 0 5%;
+/*	background-color: #fbfaf8; */
 	opacity: .8;
 	min-height: 100%;
 	width: 90%;
@@ -113,6 +109,11 @@ a {
 	margin: 0;
 }
 
+#motherboard {
+	background-image: url("../images/motherboard.png");
+	margin: 2.5% auto;
+	padding: 5%;
+}
 
 .footer {
 	max-width: 100%;
