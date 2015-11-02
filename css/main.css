@@ -135,6 +135,10 @@ a {
 	width: 100%;
 }
 
+.right p {
+	text-align: right;
+}
+
 .nav li {
 	float: left;
 	text-align: center;
