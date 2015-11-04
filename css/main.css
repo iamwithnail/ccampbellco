@@ -118,25 +118,20 @@ a {
 .footer {
 	max-width: 100%;
 	margin: 0 auto;
-	display: inline-block;
-	clear: both;
+	display: block;
+	padding: 20px 0;
 	text-align: center;
 }
 
-.footer .push {
-	position: relative;
-	height: 2em;
+.group:after {
+	content: "";
+	display: table;
 	clear: both;
-	margin: 0 auto;
 }
 
 .nav {
 	display: block;
 	width: 100%;
-}
-
-.right p {
-	text-align: right;
 }
 
 .nav li {
